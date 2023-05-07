@@ -1,0 +1,517 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* custom_contact
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 16.0+e\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-05-07 20:26+0000\n"
+"PO-Revision-Date: 2023-05-07 20:26+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: custom_contact
+#: model:ir.model.fields,field_description:custom_contact.field_res_partner__act_num
+#: model:ir.model.fields,field_description:custom_contact.field_res_users__act_num
+msgid "Act num"
+msgstr "Act num"
+
+#. module: custom_contact
+#: model:ir.model.fields,field_description:custom_contact.field_res_partner__affiliation_number
+#: model:ir.model.fields,field_description:custom_contact.field_res_users__affiliation_number
+msgid "Affiliation number"
+msgstr "Afiliación num"
+
+#. module: custom_contact
+#: model:ir.model.fields,field_description:custom_contact.field_res_partner__application_date
+#: model:ir.model.fields,field_description:custom_contact.field_res_users__application_date
+msgid "Application date"
+msgstr "Fecha de aplicación"
+
+#. module: custom_contact
+#: model:ir.model.fields,field_description:custom_contact.field_res_partner__approval_class
+#: model:ir.model.fields,field_description:custom_contact.field_res_users__approval_class
+msgid "Approval class"
+msgstr "Clase aprobación"
+
+#. module: custom_contact
+#: model:ir.model.fields.selection,name:custom_contact.selection__quality_partner__category__associate_library
+#: model:ir.model.fields.selection,name:custom_contact.selection__res_partner__category_partner__associate_library
+msgid "Associate_library"
+msgstr "Asociado biblioteca"
+
+#. module: custom_contact
+#: model:ir.model.fields.selection,name:custom_contact.selection__quality_partner__category__associated
+#: model:ir.model.fields.selection,name:custom_contact.selection__res_partner__category_partner__associated
+msgid "Associated"
+msgstr "Asociado"
+
+#. module: custom_contact
+#: model_terms:ir.ui.view,arch_db:custom_contact.customize_form_partner
+msgid "Beneficiary data"
+msgstr "Datos beneficiario"
+
+#. module: custom_contact
+#: model_terms:ir.ui.view,arch_db:custom_contact.customize_form_partner
+msgid "Billing data"
+msgstr "Datos de facturación"
+
+#. module: custom_contact
+#: model:ir.model.fields,field_description:custom_contact.field_res_partner__billing_name
+#: model:ir.model.fields,field_description:custom_contact.field_res_users__billing_name
+msgid "Billing name"
+msgstr "Nombre"
+
+#. module: custom_contact
+#: model:ir.model.fields,field_description:custom_contact.field_res_partner__birthdate
+#: model:ir.model.fields,field_description:custom_contact.field_res_users__birthdate
+msgid "Birthdate"
+msgstr "Fecha nacimiento"
+
+#. module: custom_contact
+#: model:ir.model.fields,field_description:custom_contact.field_res_partner__category_membership
+#: model:ir.model.fields,field_description:custom_contact.field_res_users__category_membership
+msgid "Category membership"
+msgstr "Categoria"
+
+#. module: custom_contact
+#: model:ir.model.fields,field_description:custom_contact.field_res_partner__client_number
+#: model:ir.model.fields,field_description:custom_contact.field_res_users__client_number
+msgid "Client number"
+msgstr "Número cliente"
+
+#. module: custom_contact
+#: model:ir.model.fields.selection,name:custom_contact.selection__res_partner__category_membership__community
+msgid "Community"
+msgstr "Comunitario"
+
+#. module: custom_contact
+#: model:ir.model.fields,field_description:custom_contact.field_quality_partner__category
+#: model:ir.model.fields,field_description:custom_contact.field_res_partner__category_partner
+#: model:ir.model.fields,field_description:custom_contact.field_res_users__category_partner
+msgid "Company Type"
+msgstr "Tipo categoria"
+
+#. module: custom_contact
+#: model:ir.model.fields,field_description:custom_contact.field_res_partner__company_address
+#: model:ir.model.fields,field_description:custom_contact.field_res_users__company_address
+msgid "Company address"
+msgstr "Dirección compañia"
+
+#. module: custom_contact
+#: model:ir.model.fields,field_description:custom_contact.field_res_partner__company_email
+#: model:ir.model.fields,field_description:custom_contact.field_res_users__company_email
+msgid "Company email"
+msgstr "Email compañia"
+
+#. module: custom_contact
+#: model:ir.model.fields,field_description:custom_contact.field_res_partner__company_name
+#: model:ir.model.fields,field_description:custom_contact.field_res_users__company_name
+msgid "Company name"
+msgstr "Nombre compañia"
+
+#. module: custom_contact
+#: model:ir.model.fields,field_description:custom_contact.field_res_partner__company_phone
+#: model:ir.model.fields,field_description:custom_contact.field_res_users__company_phone
+msgid "Company phone"
+msgstr "Telefono compañia"
+
+#. module: custom_contact
+#: model:ir.model,name:custom_contact.model_res_partner
+msgid "Contact"
+msgstr ""
+
+#. module: custom_contact
+#: model:ir.model.fields,field_description:custom_contact.field_res_partner__contact_cell
+#: model:ir.model.fields,field_description:custom_contact.field_res_users__contact_cell
+msgid "Contact cell"
+msgstr "Celular"
+
+#. module: custom_contact
+#: model:ir.model.fields,field_description:custom_contact.field_res_partner__contact_email
+#: model:ir.model.fields,field_description:custom_contact.field_res_users__contact_email
+msgid "Contact email"
+msgstr "Email"
+
+#. module: custom_contact
+#: model_terms:ir.ui.view,arch_db:custom_contact.customize_form_partner
+msgid "Contact information"
+msgstr "Información contacto"
+
+#. module: custom_contact
+#: model:ir.model.fields,field_description:custom_contact.field_quality_partner__create_uid
+msgid "Created by"
+msgstr ""
+
+#. module: custom_contact
+#: model:ir.model.fields,field_description:custom_contact.field_quality_partner__create_date
+msgid "Created on"
+msgstr ""
+
+#. module: custom_contact
+#: model:ir.model.fields.selection,name:custom_contact.selection__quality_partner__category__customer
+#: model:ir.model.fields.selection,name:custom_contact.selection__res_partner__category_partner__customer
+msgid "Customer"
+msgstr "Cliente"
+
+#. module: custom_contact
+#: model:ir.model.fields,field_description:custom_contact.field_res_partner__dui
+#: model:ir.model.fields,field_description:custom_contact.field_res_users__dui
+msgid "DUI"
+msgstr "DUI"
+
+#. module: custom_contact
+#: model:ir.model.fields,field_description:custom_contact.field_res_partner__department
+#: model:ir.model.fields,field_description:custom_contact.field_res_users__department
+msgid "Department"
+msgstr "Departamento"
+
+#. module: custom_contact
+#: model:ir.model.fields,field_description:custom_contact.field_quality_partner__display_name
+msgid "Display Name"
+msgstr ""
+
+#. module: custom_contact
+#: model:ir.model.fields.selection,name:custom_contact.selection__res_partner__civil_status__divorced
+msgid "Divorced"
+msgstr "Divorciado"
+
+#. module: custom_contact
+#: model:ir.model.fields,field_description:custom_contact.field_res_partner__document_to_issue
+#: model:ir.model.fields,field_description:custom_contact.field_res_users__document_to_issue
+msgid "Document to issue"
+msgstr "Documento a emitir"
+
+#. module: custom_contact
+#: model:ir.model.fields.selection,name:custom_contact.selection__quality_partner__category__employee
+#: model:ir.model.fields.selection,name:custom_contact.selection__res_partner__category_partner__employee
+msgid "Employee"
+msgstr "Empleado"
+
+#. module: custom_contact
+#: model:ir.model.fields,field_description:custom_contact.field_res_partner__exempt
+#: model:ir.model.fields,field_description:custom_contact.field_res_users__exempt
+msgid "Exempt"
+msgstr "Exento"
+
+#. module: custom_contact
+#: model:ir.model.fields,field_description:custom_contact.field_res_partner__expiration_date
+#: model:ir.model.fields,field_description:custom_contact.field_res_users__expiration_date
+msgid "Expiration date"
+msgstr "Fecha de expiración"
+
+#. module: custom_contact
+#: model:ir.model.fields.selection,name:custom_contact.selection__res_partner__sex__female
+msgid "Female"
+msgstr "Femenino"
+
+#. module: custom_contact
+#: model:ir.model.fields.selection,name:custom_contact.selection__res_partner__civil_status__free_union
+msgid "Free_union"
+msgstr "Union libre"
+
+#. module: custom_contact
+#: model:ir.model.fields.selection,name:custom_contact.selection__res_partner__category_membership__grandson
+msgid "Grandson"
+msgstr "Nieto"
+
+#. module: custom_contact
+#: model:ir.model.fields,field_description:custom_contact.field_res_partner__high_date
+#: model:ir.model.fields,field_description:custom_contact.field_res_users__high_date
+msgid "High date"
+msgstr "Fecha Alta"
+
+#. module: custom_contact
+#: model:ir.model.fields,field_description:custom_contact.field_res_partner__home
+#: model:ir.model.fields,field_description:custom_contact.field_res_users__home
+msgid "Home"
+msgstr "Domicilio"
+
+#. module: custom_contact
+#: model:ir.model.fields,field_description:custom_contact.field_quality_partner__id
+msgid "ID"
+msgstr "ID"
+
+#. module: custom_contact
+#: model:ir.model.fields,field_description:custom_contact.field_res_partner__id_partner
+#: model:ir.model.fields,field_description:custom_contact.field_res_users__id_partner
+msgid "Id"
+msgstr "Id"
+
+#. module: custom_contact
+#: model_terms:ir.ui.view,arch_db:custom_contact.customize_form_partner
+msgid "Information type"
+msgstr "Tipo de información"
+
+#. module: custom_contact
+#: model:ir.model.fields,field_description:custom_contact.field_quality_partner____last_update
+msgid "Last Modified on"
+msgstr ""
+
+#. module: custom_contact
+#: model:ir.model.fields,field_description:custom_contact.field_quality_partner__write_uid
+msgid "Last Updated by"
+msgstr ""
+
+#. module: custom_contact
+#: model:ir.model.fields,field_description:custom_contact.field_quality_partner__write_date
+msgid "Last Updated on"
+msgstr ""
+
+#. module: custom_contact
+#: model:ir.model.fields,field_description:custom_contact.field_res_partner__last_name
+#: model:ir.model.fields,field_description:custom_contact.field_res_users__last_name
+msgid "Last name"
+msgstr "Apellido"
+
+#. module: custom_contact
+#: model:ir.model.fields,field_description:custom_contact.field_res_partner__low_date
+#: model:ir.model.fields,field_description:custom_contact.field_res_users__low_date
+msgid "Low date"
+msgstr "Fecha baja"
+
+#. module: custom_contact
+#: model:ir.model.fields,field_description:custom_contact.field_res_partner__low_readmission
+#: model:ir.model.fields,field_description:custom_contact.field_res_users__low_readmission
+msgid "Low readmission"
+msgstr "Fecha reingreso"
+
+#. module: custom_contact
+#: model:ir.model.fields,field_description:custom_contact.field_res_partner__low_reason
+#: model:ir.model.fields,field_description:custom_contact.field_res_users__low_reason
+msgid "Low reason"
+msgstr "Motivo baja"
+
+#. module: custom_contact
+#: model:ir.model.fields.selection,name:custom_contact.selection__res_partner__sex__male
+msgid "Male"
+msgstr "Masculino"
+
+#. module: custom_contact
+#: model:ir.model.fields.selection,name:custom_contact.selection__res_partner__civil_status__married
+msgid "Married"
+msgstr "Casado"
+
+#. module: custom_contact
+#: model_terms:ir.ui.view,arch_db:custom_contact.customize_form_partner
+msgid "Membership data"
+msgstr "Datos de membresía"
+
+#. module: custom_contact
+#: model_terms:ir.ui.view,arch_db:custom_contact.customize_form_partner
+msgid "Membership status"
+msgstr "Estado de membresía"
+
+#. module: custom_contact
+#: model:ir.model.fields,field_description:custom_contact.field_res_partner__municipality
+#: model:ir.model.fields,field_description:custom_contact.field_res_users__municipality
+msgid "Municipality"
+msgstr "Municipio"
+
+#. module: custom_contact
+#: model:ir.model.fields,field_description:custom_contact.field_res_partner__nit
+#: model:ir.model.fields,field_description:custom_contact.field_res_users__nit
+msgid "NIT"
+msgstr "NIT"
+
+#. module: custom_contact
+#: model:ir.model.fields,field_description:custom_contact.field_res_partner__nrc
+#: model:ir.model.fields,field_description:custom_contact.field_res_users__nrc
+msgid "NRC"
+msgstr "NRC"
+
+#. module: custom_contact
+#: model:ir.model.fields,field_description:custom_contact.field_res_partner__name_partner
+#: model:ir.model.fields,field_description:custom_contact.field_res_users__name_partner
+msgid "Name partner"
+msgstr "Nombres"
+
+#. module: custom_contact
+#: model:ir.model.fields,field_description:custom_contact.field_res_partner__nationality
+#: model:ir.model.fields,field_description:custom_contact.field_res_users__nationality
+msgid "Nationality"
+msgstr "Nacionalidad"
+
+#. module: custom_contact
+#. odoo-python
+#: code:addons/custom_contact/models/res_partner.py:0
+#: code:addons/custom_contact/models/res_partner.py:0
+#: code:addons/custom_contact/models/res_partner.py:0
+#, python-format
+msgid "New"
+msgstr ""
+
+#. module: custom_contact
+#: model:ir.model.fields.selection,name:custom_contact.selection__res_partner__category_membership__number
+msgid "Number"
+msgstr ""
+
+#. module: custom_contact
+#: model:ir.model.fields,field_description:custom_contact.field_res_partner__partner_code
+#: model:ir.model.fields,field_description:custom_contact.field_res_users__partner_code
+msgid "Partner code"
+msgstr "Código socio"
+
+#. module: custom_contact
+#: model_terms:ir.ui.view,arch_db:custom_contact.customize_form_partner
+msgid "Partner data"
+msgstr "Datos de socio"
+
+#. module: custom_contact
+#: model:ir.model.fields,field_description:custom_contact.field_res_partner__partner_quality
+#: model:ir.model.fields,field_description:custom_contact.field_res_users__partner_quality
+msgid "Partner quality"
+msgstr "Calidad de socio"
+
+#. module: custom_contact
+#: model:ir.model.fields.selection,name:custom_contact.selection__res_partner__category_membership__passerby
+msgid "Passerby"
+msgstr "Transeunte"
+
+#. module: custom_contact
+#: model_terms:ir.ui.view,arch_db:custom_contact.customize_form_partner
+msgid "Passport data"
+msgstr "Datos pasaporte"
+
+#. module: custom_contact
+#: model:ir.model.fields,field_description:custom_contact.field_res_partner__passport_number
+#: model:ir.model.fields,field_description:custom_contact.field_res_users__passport_number
+msgid "Passport number"
+msgstr "Número de pasaporte"
+
+#. module: custom_contact
+#: model:ir.model.fields,field_description:custom_contact.field_res_partner__phone_contact
+#: model:ir.model.fields,field_description:custom_contact.field_res_users__phone_contact
+msgid "Phone contact"
+msgstr "Telefonos"
+
+#. module: custom_contact
+#: model:ir.model.fields,field_description:custom_contact.field_res_partner__place_of_birth
+#: model:ir.model.fields,field_description:custom_contact.field_res_users__place_of_birth
+msgid "Place of birth"
+msgstr "Lugar de nacimiento"
+
+#. module: custom_contact
+#: model:ir.model.fields,field_description:custom_contact.field_res_partner__position_held
+#: model:ir.model.fields,field_description:custom_contact.field_res_users__position_held
+msgid "Position held"
+msgstr "Cargo desempeñado"
+
+#. module: custom_contact
+#: model:ir.model.fields,field_description:custom_contact.field_res_partner__profession
+#: model:ir.model.fields,field_description:custom_contact.field_res_users__profession
+msgid "Profession"
+msgstr "Profesión"
+
+#. module: custom_contact
+#: model:ir.model.fields,field_description:custom_contact.field_res_partner__quality_partner
+#: model:ir.model.fields,field_description:custom_contact.field_res_users__quality_partner
+#: model_terms:ir.ui.view,arch_db:custom_contact.customize_form_partner
+msgid "Quality"
+msgstr "Calidad"
+
+#. module: custom_contact
+#: model:ir.model.fields,field_description:custom_contact.field_res_partner__readmission_date
+#: model:ir.model.fields,field_description:custom_contact.field_res_users__readmission_date
+msgid "Readmission date"
+msgstr "Fecha reingreso"
+
+#. module: custom_contact
+#: model:ir.model.fields,field_description:custom_contact.field_res_partner__relationship
+#: model:ir.model.fields,field_description:custom_contact.field_res_users__relationship
+msgid "Relationship"
+msgstr "Parentesco"
+
+#. module: custom_contact
+#: model:ir.model.fields,field_description:custom_contact.field_quality_partner__secuence
+msgid "Secuence"
+msgstr "Secuencia"
+
+#. module: custom_contact
+#: model:ir.model.fields,field_description:custom_contact.field_res_partner__sex
+#: model:ir.model.fields,field_description:custom_contact.field_res_users__sex
+msgid "Sex"
+msgstr "Sexo"
+
+#. module: custom_contact
+#: model:ir.model.fields.selection,name:custom_contact.selection__res_partner__civil_status__single
+msgid "Single"
+msgstr "Solter@"
+
+#. module: custom_contact
+#: model_terms:ir.ui.view,arch_db:custom_contact.quality_partner_view_form
+#: model_terms:ir.ui.view,arch_db:custom_contact.quality_partner_view_tree
+msgid "Tags"
+msgstr ""
+
+#. module: custom_contact
+#: model:ir.model.fields.selection,name:custom_contact.selection__res_partner__category_membership__taxpayer
+msgid "Taxpayer"
+msgstr "Contribuyente"
+
+#. module: custom_contact
+#: model:ir.model.fields.selection,name:custom_contact.selection__quality_partner__category__visitor
+#: model:ir.model.fields.selection,name:custom_contact.selection__res_partner__category_partner__visitor
+msgid "Visitor"
+msgstr "Visitante"
+
+#. module: custom_contact
+#: model:ir.model.fields.selection,name:custom_contact.selection__res_partner__civil_status__widower
+msgid "Widower"
+msgstr "Juvenil"
+
+#. module: custom_contact
+#: model_terms:ir.ui.view,arch_db:custom_contact.customize_form_partner
+msgid "Working Information"
+msgstr "Información laboral"
+
+#. module: custom_contact
+#. odoo-python
+#: code:addons/custom_contact/models/res_partner.py:0
+#, python-format
+msgid ""
+"You cannot have more than two or more sequences with the same name and "
+"category"
+msgstr "No puedes tener mas de dos o mas secuencias con el mismo nombre y "
+"categoria"
+
+#. module: custom_contact
+#: model:ir.model.fields.selection,name:custom_contact.selection__res_partner__category_membership__youth
+msgid "Youth"
+msgstr "Juvenil"
+
+#. module: custom_contact
+#: model:ir.model.fields,field_description:custom_contact.field_res_partner__civil_status
+#: model:ir.model.fields,field_description:custom_contact.field_res_users__civil_status
+msgid "civil_status"
+msgstr "Estado civil"
+
+#. module: custom_contact
+#: model:ir.model.fields,field_description:custom_contact.field_quality_partner__name
+msgid "name"
+msgstr "Nombre"
+
+#. module: custom_contact
+#: model_terms:ir.ui.view,arch_db:custom_contact.customize_form_partner
+msgid "personal information"
+msgstr "Información personal"
+
+#. module: custom_contact
+#: model:ir.ui.menu,name:custom_contact.quality_partner_menu_action
+msgid "quality partner"
+msgstr "Tipo de categoria"
+
+#. module: custom_contact
+#: model:ir.model,name:custom_contact.model_quality_partner
+msgid "quality.partner"
+msgstr ""
+
+#. module: custom_contact
+#: model:ir.actions.act_window,name:custom_contact.quality_partner_view_action
+msgid "quality_partner_view_action"
+msgstr "Tipo de categorias"
