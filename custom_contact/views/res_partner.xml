@@ -1,0 +1,141 @@
+<odoo>
+  <data>
+
+    <record id="customize_form_partner" model="ir.ui.view">
+      <field name="name">customize.form.partner</field>
+      <field name="model">res.partner</field>
+      <field name="inherit_id" ref="base.view_partner_form"/>
+      <field name="arch" type="xml">
+        <xpath expr="//div[@class='oe_title mb24']/field[@name='company_type']" position='after'>
+          <br/>
+          <field name='category_partner' widget="radio" options="{'horizontal': true}"/>
+          <br/>
+          <group>
+            <group>
+              <field name='quality_partner' string="Quality" options="{'no_open': True, 'no_create': True}"/>
+            </group>
+            <group>
+              <field name='client_number' readonly="1"/>
+            </group>
+          </group>
+        </xpath>
+        <xpath expr="//page[@name='internal_notes']" position='after'>
+          <page name="information_type" string='Information type'>
+            <group>
+              <group string="Partner data" name="Partner data">
+                <field name="id_partner"/>
+                <field name="application_date"/>
+                <field name="partner_code" attrs="{'invisible': [('category_partner', '=', 'employee')]}"/>
+                <field name="partner_quality" attrs="{'invisible': [('category_partner', 'in', ('employee', 'customer'))]}"/>
+                <field name="sex"/>
+                <field name="civil_status" attrs="{'invisible': [('category_partner', 'in', ('employee', 'customer', 'associate_library'))]}"/>
+                <field name="profession" attrs="{'invisible': [('category_partner', 'in', ('employee', 'customer', 'associate_library'))]}"/>
+              </group>
+              <group string="personal information" name="Personal information">
+                <field name="name_partner"/>
+                <field name="last_name"/>
+                <field name="home" attrs="{'invisible': [('category_partner', '=', 'employee')]}"/>
+                <field name="municipality" attrs="{'invisible': [('category_partner', '=', 'employee')]}"/>
+                <field name="department" attrs="{'invisible': [('category_partner', '=', 'employee')]}"/>
+                <field name="place_of_birth" attrs="{'invisible': [('category_partner', 'in', ('customer', 'associate_library'))]}"/>
+                <field name="birthdate"/>
+                <field name="dui"/>
+              </group>
+            </group>
+            <group>
+              <group string="Passport data" name="Passport data" attrs="{'invisible': [('category_partner', '=', 'customer')]}">
+                <field name="nationality"/>
+                <field name="passport_number" attrs="{'invisible': [('category_partner', '=', 'associate_library')]}"/>
+                <field name="expiration_date" attrs="{'invisible': [('category_partner', '=', 'associate_library')]}"/>
+              </group>
+              <group string="Contact information" name="Contact information">
+                <field name="phone_contact" widget='phone' attrs="{'invisible': [('category_partner', '=', 'employee')]}"/>
+                <field name="contact_cell" widget='phone'/>
+                <field name="contact_email" widget='email'/>
+              </group>
+            </group>
+            <group>
+              <group string="Working Information" name="Working Information" attrs="{'invisible': [('category_partner', 'in', ('employee', 'associate_library'))]}">
+                <field name="company_name"/>
+                <field name="position_held"/>
+                <field name="company_address" attrs="{'invisible': [('category_partner', '=','customer')]}"/>
+                <field name="company_phone" widget='phone'/>
+                <field name="company_email" widget='email'/>
+              </group>
+              <group string="Beneficiary data" name="Beneficiary data" attrs="{'invisible': [('category_partner', 'in', ('associated', 'customer', 'associate_library', 'visitor'))]}">
+                <field name="relationship"/>
+              </group>
+            </group>
+            <group>
+              <group string="Membership data" name="Membership data" attrs="{'invisible': [('category_partner', 'in', ('employee', 'customer'))]}">
+                <field name="high_date"/>
+                <field name="approval_class" attrs="{'invisible': [('category_partner', '=', 'associate_library')]}"/>
+                <field name="act_num" attrs="{'invisible': [('category_partner', 'in', ('associate_library', 'visitor'))]}"/>
+                <field name="affiliation_number" widget='phone' attrs="{'invisible': [('category_partner', 'in', ('associate_library', 'visitor'))]}"/>
+              </group>
+              <group string="Billing data" name="Billing data" attrs="{'invisible': [('category_partner', '=', 'employee')]}">
+                <field name="document_to_issue"/>
+                <field name="exempt"/>
+                <field name="billing_name" attrs="{'invisible': [('category_partner', '=', 'associate_library')]}"/>
+                <field name="nrc"/>
+                <field name="nit"/>
+              </group>
+            </group>
+            <group>
+              <group string="Membership status" name="Membership status" attrs="{'invisible': [('category_partner', 'in', ('employee', 'customer', 'associate_library', 'visitor'))]}">
+                <field name="low_date"/>
+                <field name="low_reason"/>
+                <field name="readmission_date"/>
+                <field name="low_readmission"/>
+                <field name="category_membership"/>
+              </group>
+            </group>
+          </page>
+        </xpath>
+      </field>
+    </record>
+
+    <record id="quality_partner_view_form" model="ir.ui.view">
+      <field name="name">quality_partner_view_form</field>
+      <field name="model">quality.partner</field>
+      <field name="arch" type="xml">
+        <form string="Tags">
+          <sheet>
+            <group>
+              <group>
+                <field name="name"/>
+                <field name="secuence"/>
+              </group>
+              <group>
+                <field name="category"/>
+              </group>
+            </group>
+          </sheet>
+        </form>
+      </field>
+    </record>
+
+    <record id="quality_partner_view_tree" model="ir.ui.view">
+      <field name="name">quality_partner_view_tree</field>
+      <field name="model">quality.partner</field>
+      <field name="arch" type="xml">
+        <tree string="Tags">
+          <field name="name"/>
+          <field name="category"/>
+          <field name="secuence"/>
+        </tree>
+      </field>
+    </record>
+
+    <record id="quality_partner_view_action" model="ir.actions.act_window">
+      <field name="name">quality_partner_view_action</field>
+      <field name="res_model">quality.partner</field>
+      <field name="view_mode">tree,form</field>
+    </record>
+
+    <menuitem action="quality_partner_view_action"
+              id="quality_partner_menu_action"
+              parent="contacts.res_partner_menu_config" name="quality partner"
+              sequence="5"/>
+  </data>
+</odoo>
