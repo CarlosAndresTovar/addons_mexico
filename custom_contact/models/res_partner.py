@@ -86,6 +86,21 @@ class ResPartner(models.Model):
 
         return super(ResPartner, self).create(vals)
 
+    @api.onchange('category_partner')
+    def _clear_quality(self):
+        for line in self:
+            line.quality_partner = False
+
+    def write(self, vals):
+        if 'quality_partner' in vals:
+            query_sequence =\
+                self.env['quality.partner'].search([('id', '=',
+                                                     vals['quality_partner'])])
+            code_sequence = query_sequence.secuence.code
+            vals['client_number'] = self.env['ir.sequence'].next_by_code(code_sequence) or _('New')
+
+        return super(ResPartner, self).write(vals)
+
 
 class QualityPartner(models.Model):
     _name = 'quality.partner'
